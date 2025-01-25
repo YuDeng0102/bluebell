@@ -1,15 +1,148 @@
-{"level":"INFO","time":"2025-01-24T19:23:44.705+0800","caller":"mysql/mysql.go:47","msg":"mysql init success"}
-{"level":"INFO","time":"2025-01-24T19:23:44.706+0800","caller":"redis/redis.go:26","msg":"redis init success"}
-{"level":"INFO","time":"2025-01-24T19:24:01.875+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.00001918}
-{"level":"INFO","time":"2025-01-24T19:24:02.021+0800","caller":"logger/logger.go:68","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.00000135}
-{"level":"INFO","time":"2025-01-24T19:24:06.632+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.000004924}
-{"level":"INFO","time":"2025-01-24T19:24:07.852+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.000025373}
-{"level":"INFO","time":"2025-01-24T19:24:11.292+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.000011637}
-{"level":"INFO","time":"2025-01-24T19:24:27.599+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.000008468}
-{"level":"INFO","time":"2025-01-24T19:24:28.361+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.000009463}
-{"level":"INFO","time":"2025-01-24T19:24:28.741+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.000012439}
-{"level":"INFO","time":"2025-01-24T19:24:28.908+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.000008591}
-{"level":"INFO","time":"2025-01-24T19:24:29.088+0800","caller":"logger/logger.go:68","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"::1","user-agent":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36","errors":"","cost":0.000009435}
-{"level":"INFO","time":"2025-01-24T19:24:50.311+0800","caller":"bluebell/main.go:79","msg":"Shutdown Server ..."}
-{"level":"INFO","time":"2025-01-24T19:24:50.311+0800","caller":"bluebell/main.go:88","msg":"Server exiting"}
-{"level":"INFO","time":"2025-01-24T19:24:50.312+0800","caller":"mysql/mysql.go:53","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:12:21.531+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:12:21.531+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:12:21.531+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:12:42.819+0800","caller":"bluebell/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:12:42.819+0800","caller":"bluebell/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:12:42.819+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:12:49.098+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:12:49.098+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:12:49.099+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:13:11.038+0800","caller":"bluebell/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:13:11.038+0800","caller":"bluebell/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:13:11.038+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:13:11.673+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:13:11.674+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:13:11.674+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:13:34.274+0800","caller":"bluebell/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:13:34.274+0800","caller":"bluebell/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:13:34.274+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:13:57.300+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:13:57.300+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:13:57.300+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:14:21.338+0800","caller":"bluebell/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:14:21.338+0800","caller":"bluebell/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:14:21.338+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:14:21.905+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:14:21.906+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:14:21.906+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:14:29.814+0800","caller":"bluebell/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:14:29.814+0800","caller":"bluebell/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:14:29.814+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:14:48.572+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:14:48.573+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:14:48.573+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:14:56.371+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:14:56.371+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:14:56.371+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:15:26.793+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:15:26.793+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:15:26.793+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:15:44.852+0800","caller":"bluebell/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:15:44.853+0800","caller":"bluebell/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:15:44.853+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:15:45.496+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:15:45.497+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:15:45.497+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:17:06.602+0800","caller":"bluebell/main.go:83","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:17:06.602+0800","caller":"bluebell/main.go:92","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:17:06.602+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:17:07.163+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:17:07.163+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:17:07.163+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:17:23.516+0800","caller":"bluebell/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:17:23.516+0800","caller":"bluebell/main.go:94","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:17:23.516+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:17:24.072+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:17:24.072+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:17:24.072+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:18:05.548+0800","caller":"bluebell/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:18:05.548+0800","caller":"bluebell/main.go:94","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:18:05.548+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:18:06.105+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:18:06.106+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:18:06.106+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:18:43.813+0800","caller":"bluebell/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:18:43.813+0800","caller":"bluebell/main.go:94","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:18:43.813+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:20:20.091+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:20:20.091+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:20:20.091+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:20:31.101+0800","caller":"bluebell/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:20:31.101+0800","caller":"bluebell/main.go:94","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:20:31.101+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:20:31.678+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:20:31.679+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:20:31.679+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:21:27.544+0800","caller":"bluebell/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:21:27.544+0800","caller":"bluebell/main.go:94","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:21:27.544+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:21:28.116+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:21:28.117+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:21:28.117+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:21:38.527+0800","caller":"bluebell/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:21:38.527+0800","caller":"bluebell/main.go:94","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:21:38.527+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:21:39.085+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:21:39.086+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:21:39.086+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:22:07.294+0800","caller":"bluebell/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:22:07.294+0800","caller":"bluebell/main.go:94","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:22:07.294+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:22:07.428+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:22:07.429+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:22:07.429+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:22:11.674+0800","caller":"bluebell/main.go:85","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:22:11.674+0800","caller":"bluebell/main.go:94","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:22:11.674+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:23:17.034+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:23:17.034+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:23:17.034+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T11:24:18.930+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:24:18.930+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:24:18.930+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T11:26:02.098+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T11:26:02.098+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T11:26:02.098+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"ERROR","time":"2025-01-25T11:26:15.142+0800","caller":"controller/user.go:15","msg":"SignUp with invalid param","error":"Key: 'ParamRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2025-01-25T11:26:15.143+0800","caller":"logger/logger.go:79","msg":"/api/user/register","status":400,"method":"POST","path":"/api/user/register","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000152004}
+{"level":"INFO","time":"2025-01-25T11:26:50.777+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T11:26:50.777+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T11:26:50.777+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T12:06:03.944+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T12:06:03.944+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T12:06:03.944+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"ERROR","time":"2025-01-25T12:06:42.065+0800","caller":"controller/user.go:30","msg":"SignUp with invalid param","error":"Key: 'ParamLogin.Username' Error:Field validation for 'Username' failed on the 'required' tag\nKey: 'ParamLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2025-01-25T12:06:42.065+0800","caller":"logger/logger.go:79","msg":"/api/user/login","status":400,"method":"POST","path":"/api/user/login","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000606421}
+{"level":"INFO","time":"2025-01-25T12:10:36.658+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T12:10:36.659+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T12:10:36.659+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T12:10:37.787+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T12:10:37.788+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T12:10:37.788+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T12:13:11.821+0800","caller":"logger/logger.go:79","msg":"/api/user/login","status":200,"method":"POST","path":"/api/user/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000713271}
+{"level":"INFO","time":"2025-01-25T12:13:57.415+0800","caller":"logger/logger.go:79","msg":"/api/user/register","status":200,"method":"POST","path":"/api/user/register","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.00649429}
+{"level":"INFO","time":"2025-01-25T12:14:00.065+0800","caller":"logger/logger.go:79","msg":"/api/user/login","status":200,"method":"POST","path":"/api/user/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000485189}
+{"level":"INFO","time":"2025-01-25T12:50:31.631+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T12:50:31.631+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T12:50:31.631+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T22:38:17.977+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T22:38:17.977+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T22:38:17.977+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"ERROR","time":"2025-01-25T22:38:30.170+0800","caller":"controller/user.go:50","msg":"service.Login failed.","用户:":"yudeng","error":"密码错误"}
+{"level":"INFO","time":"2025-01-25T22:38:30.170+0800","caller":"logger/logger.go:79","msg":"/api/user/login","status":200,"method":"POST","path":"/api/user/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000574526}
+{"level":"ERROR","time":"2025-01-25T22:38:52.144+0800","caller":"controller/user.go:40","msg":"SignUp with invalid param","error":"Key: 'ParamLogin.Password' Error:Field validation for 'Password' failed on the 'required' tag"}
+{"level":"INFO","time":"2025-01-25T22:38:52.144+0800","caller":"logger/logger.go:79","msg":"/api/user/login","status":200,"method":"POST","path":"/api/user/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000140907}
+{"level":"ERROR","time":"2025-01-25T22:39:22.818+0800","caller":"controller/user.go:17","msg":"SignUp with invalid param","error":"Key: 'ParamRegister.RePassword' Error:Field validation for 'RePassword' failed on the 'eqfield' tag"}
+{"level":"INFO","time":"2025-01-25T22:39:22.819+0800","caller":"logger/logger.go:79","msg":"/api/user/register","status":200,"method":"POST","path":"/api/user/register","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000132512}
+{"level":"INFO","time":"2025-01-25T22:39:32.162+0800","caller":"logger/logger.go:79","msg":"/api/user/register","status":200,"method":"POST","path":"/api/user/register","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000452112}
+{"level":"INFO","time":"2025-01-25T22:39:48.532+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T22:39:48.532+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T22:39:48.532+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-25T22:39:49.228+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-25T22:39:49.229+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-25T22:39:49.229+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-25T22:39:55.987+0800","caller":"logger/logger.go:79","msg":"/api/user/register","status":200,"method":"POST","path":"/api/user/register","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000772409}
+{"level":"INFO","time":"2025-01-25T22:40:29.101+0800","caller":"logger/logger.go:79","msg":"/api/user/login","status":200,"method":"POST","path":"/api/user/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000507474}
+{"level":"INFO","time":"2025-01-25T22:40:38.904+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-25T22:40:38.904+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-25T22:40:38.904+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}

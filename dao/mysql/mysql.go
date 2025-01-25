@@ -7,6 +7,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"time"
+	"web-app/model"
 	"web-app/settings"
 )
 
@@ -43,6 +44,9 @@ func Init(config *settings.MySQLConfig) (err error) {
 	sqlDB.SetMaxIdleConns(config.MaxIdleConns) // 设置连接池中空闲连接的最大数量
 	sqlDB.SetMaxOpenConns(config.MaxOpenConns) //设置打开数据库连接的最大数量
 	sqlDB.SetConnMaxLifetime(time.Hour)        //设置了连接可复用的最大时间
+
+	//数据库迁移
+	_ = db.AutoMigrate(&model.User{})
 
 	zap.L().Info("mysql init success")
 	return

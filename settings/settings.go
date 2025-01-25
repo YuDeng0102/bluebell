@@ -15,9 +15,10 @@ type AppConfig struct {
 	Mode    string `mapstructure:"mode"`
 	Version string `mapstructure:"version"`
 
-	*LogConfig   `mapstructure:"log"`
-	*MySQLConfig `mapstructure:"mysql"`
-	*RedisConfig `mapstructure:"redis"`
+	*LogConfig       `mapstructure:"log"`
+	*MySQLConfig     `mapstructure:"mysql"`
+	*RedisConfig     `mapstructure:"redis"`
+	*SnowflakeConfig `mapstructure:"snowflake"`
 }
 type LogConfig struct {
 	Level      string `mapstructure:"level"`
@@ -44,6 +45,11 @@ type RedisConfig struct {
 	Database     int    `mapstructure:"database"`
 	PoolSize     int    `mapstructure:"pool_size"`
 	MinIdleConns int    `mapstructure:"min_idle_conns"`
+}
+
+type SnowflakeConfig struct {
+	StartTime string `mapstructure:"start_time"`
+	MachineID int64  `mapstructure:"machine_id"`
 }
 
 func Init(path string) (err error) {

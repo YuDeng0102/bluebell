@@ -14,6 +14,7 @@ import (
 	"web-app/dao/mysql"
 	"web-app/dao/redis"
 	"web-app/logger"
+	snowflake "web-app/pkg/snowfloke"
 	"web-app/routes"
 	"web-app/settings"
 )
@@ -32,7 +33,8 @@ func main() {
 	}
 
 	//2.初始化日志
-	if err := logger.Init(settings.Conf.LogConfig); err != nil {
+	//log.Printf("config:%v", settings.Conf)
+	if err := logger.Init(settings.Conf.LogConfig, settings.Conf.Mode); err != nil {
 		fmt.Printf("init logger failed err:%v\n", err)
 		return
 	}
@@ -54,10 +56,13 @@ func main() {
 
 	//5.注册路由
 	r := routes.SetUp()
+
+	//初始化雪花算法
+	snowflake.Init(settings.Conf.SnowflakeConfig.StartTime, settings.Conf.SnowflakeConfig.MachineID)
 	//6.启动服务(优雅关机)
 	fmt.Println()
 	srv := &http.Server{
-		Addr:    fmt.Sprintf(":%d", viper.GetInt("app.port")),
+		Addr:    fmt.Sprintf(":%d", viper.GetInt("port")),
 		Handler: r,
 	}
 

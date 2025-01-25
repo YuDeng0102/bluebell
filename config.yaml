@@ -1,9 +1,9 @@
-app:
-  name: "bluebell"
-  mode: "dev"
-  host: "localhost"
-  port: 8081
-  version: "0.1.0"
+
+name: "bluebell"
+mode: "dev"
+host: "localhost"
+port: 8081
+version: "0.1.0"
 
 log:
   level: "debug"
@@ -28,4 +28,6 @@ redis:
   database: 0
   pool_size: 100
 
-
+snowflake:
+  start_time: "2025-01-23"
+  machine_id: 1

@@ -14,5 +14,12 @@ func SetUp() *gin.Engine {
 
 		c.String(http.StatusOK, "Hello World")
 	})
+
+	//r.POST("/register", controller.RegisterHanndler)
+
+	v1 := r.Group("/api")
+	{
+		GetUserRoutes(v1)
+	}
 	return r
 }
