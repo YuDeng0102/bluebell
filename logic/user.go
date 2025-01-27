@@ -22,12 +22,8 @@ func Register(register *model.ParamRegister) error {
 	return nil
 }
 
-func Login(login *model.ParamLogin) error {
-	user := model.User{
-		Username: login.Username,
-		Password: login.Password,
-	}
-	if err := mysql.Login(&user); err != nil {
+func Login(user *model.User) error {
+	if err := mysql.Login(user); err != nil {
 		return err
 	}
 	return nil

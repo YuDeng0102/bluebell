@@ -8,6 +8,7 @@ import (
 	"web-app/dao/mysql"
 	"web-app/logic"
 	"web-app/model"
+	"web-app/pkg/jwt"
 )
 
 // RegisterHanndler 用户注册
@@ -36,15 +37,10 @@ func RegisterHanndler(c *gin.Context) {
 
 // LoginHanndler 用户注册
 func LoginHanndler(c *gin.Context) {
-	var p model.ParamLogin
+	var p model.User
 	if err := c.ShouldBind(&p); err != nil {
 		zap.L().Error("SignUp with invalid param", zap.Error(err))
-		errs, ok := err.(validator.ValidationErrors)
-		if !ok {
-			ResponseError(c, CodeInvalidParams)
-			return
-		}
-		ResponseErrorWithMsg(c, CodeInvalidParams, errs.Error())
+		ResponseErrorWithMsg(c, CodeInvalidParams, err.Error())
 		return
 	}
 	if err := logic.Login(&p); err != nil {
@@ -56,5 +52,11 @@ func LoginHanndler(c *gin.Context) {
 		ResponseError(c, CodeInvalidPassword)
 		return
 	}
-	ResponseSuccess(c, nil)
+	aToken, rToken, _ := jwt.GenToken(p.UserID)
+	ResponseSuccess(c, gin.H{
+		"accessToken":  aToken,
+		"refreshToken": rToken,
+		"userId":       p.UserID,
+		"userName":     p.Username,
+	})
 }

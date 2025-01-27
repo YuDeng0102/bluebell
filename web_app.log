@@ -146,3 +146,83 @@
 {"level":"INFO","time":"2025-01-25T22:40:38.904+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2025-01-25T22:40:38.904+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
 {"level":"INFO","time":"2025-01-25T22:40:38.904+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-27T10:02:20.720+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-27T10:02:20.720+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-27T10:02:20.720+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-27T10:02:48.017+0800","caller":"logger/logger.go:79","msg":"/api/register","status":200,"method":"POST","path":"/api/register","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.001004447}
+{"level":"ERROR","time":"2025-01-27T10:03:11.366+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:03:11.366+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000694089}
+{"level":"ERROR","time":"2025-01-27T10:03:17.404+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:03:17.404+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000537263}
+{"level":"ERROR","time":"2025-01-27T10:03:29.144+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:03:29.144+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000740332}
+{"level":"ERROR","time":"2025-01-27T10:03:43.153+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:03:43.153+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000658797}
+{"level":"INFO","time":"2025-01-27T10:04:13.839+0800","caller":"logger/logger.go:79","msg":"/api/register","status":200,"method":"POST","path":"/api/register","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.005864432}
+{"level":"ERROR","time":"2025-01-27T10:04:25.569+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:04:25.569+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000465841}
+{"level":"INFO","time":"2025-01-27T10:10:40.138+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-27T10:10:40.138+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-27T10:10:40.138+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-27T10:10:40.888+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-27T10:10:40.889+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-27T10:10:40.889+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-27T10:10:49.749+0800","caller":"mysql/user.go:36","msg":"%v password: %v invalid","username":"yudeng123","password":""}
+{"level":"ERROR","time":"2025-01-27T10:10:49.749+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:10:49.749+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000623865}
+{"level":"INFO","time":"2025-01-27T10:11:08.729+0800","caller":"mysql/user.go:36","msg":"%v password: %v invalid","username":"yudeng123","password":""}
+{"level":"ERROR","time":"2025-01-27T10:11:08.729+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:11:08.729+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000434144}
+{"level":"INFO","time":"2025-01-27T10:11:19.370+0800","caller":"mysql/user.go:36","msg":"%v password: %v invalid","username":"yudeng123","password":""}
+{"level":"ERROR","time":"2025-01-27T10:11:19.370+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:11:19.370+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000770483}
+{"level":"INFO","time":"2025-01-27T10:12:41.351+0800","caller":"mysql/user.go:36","msg":"%v password: %v invalid","username":"yudeng123","password":""}
+{"level":"ERROR","time":"2025-01-27T10:12:41.352+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:12:41.352+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"username=yudeng&password=041135sz","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000713044}
+{"level":"INFO","time":"2025-01-27T10:12:52.836+0800","caller":"mysql/user.go:36","msg":"%v password: %v invalid","username":"yudeng123","password":""}
+{"level":"ERROR","time":"2025-01-27T10:12:52.836+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:12:52.836+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000495012}
+{"level":"INFO","time":"2025-01-27T10:14:30.026+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-27T10:14:30.027+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-27T10:14:30.027+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-27T10:14:30.165+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-27T10:14:30.166+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-27T10:14:30.166+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-27T10:14:33.787+0800","caller":"mysql/user.go:36","msg":"%v password: %v invalid","username":"yudeng123","password":""}
+{"level":"ERROR","time":"2025-01-27T10:14:33.787+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:14:33.787+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.001033227}
+{"level":"INFO","time":"2025-01-27T10:15:26.983+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-27T10:15:26.983+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-27T10:15:26.983+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-27T10:15:27.658+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-27T10:15:27.659+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-27T10:15:27.659+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-27T10:15:31.696+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-27T10:15:31.696+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-27T10:15:31.696+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-27T10:16:22.228+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-27T10:16:22.228+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-27T10:16:22.228+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"ERROR","time":"2025-01-27T10:16:26.803+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:16:26.803+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.001042337}
+{"level":"INFO","time":"2025-01-27T10:16:39.961+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-27T10:16:39.961+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-27T10:16:39.961+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-27T10:16:40.660+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-27T10:16:40.660+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-27T10:16:40.660+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"ERROR","time":"2025-01-27T10:16:43.149+0800","caller":"controller/user.go:47","msg":"service.Login failed.","用户:":"yudeng123","error":"密码错误"}
+{"level":"INFO","time":"2025-01-27T10:16:43.150+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000713905}
+{"level":"INFO","time":"2025-01-27T10:17:13.201+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-27T10:17:13.201+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-27T10:17:13.201+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}
+{"level":"INFO","time":"2025-01-27T10:17:13.868+0800","caller":"mysql/mysql.go:51","msg":"mysql init success"}
+{"level":"INFO","time":"2025-01-27T10:17:13.868+0800","caller":"redis/redis.go:26","msg":"redis init success"}
+{"level":"INFO","time":"2025-01-27T10:17:13.868+0800","caller":"snowfloke/snowfloke.go:26","msg":"snowflake node init success"}
+{"level":"INFO","time":"2025-01-27T10:17:17.075+0800","caller":"logger/logger.go:79","msg":"/api/login","status":200,"method":"POST","path":"/api/login","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000540792}
+{"level":"INFO","time":"2025-01-27T10:18:02.061+0800","caller":"logger/logger.go:79","msg":"/api/user/ping","status":200,"method":"GET","path":"/api/user/ping","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000018262}
+{"level":"INFO","time":"2025-01-27T10:19:40.116+0800","caller":"logger/logger.go:79","msg":"/api/user/ping","status":200,"method":"GET","path":"/api/user/ping","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000011227}
+{"level":"INFO","time":"2025-01-27T10:22:27.752+0800","caller":"logger/logger.go:79","msg":"/api/user/ping","status":200,"method":"GET","path":"/api/user/ping","query":"","ip":"::1","user-agent":"Apifox/1.0.0 (https://apifox.com)","errors":"","cost":0.000053801}
+{"level":"INFO","time":"2025-01-27T11:18:21.535+0800","caller":"bluebell/main.go:84","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2025-01-27T11:18:21.535+0800","caller":"bluebell/main.go:93","msg":"Server exiting"}
+{"level":"INFO","time":"2025-01-27T11:18:21.536+0800","caller":"mysql/mysql.go:57","msg":"MySQL connection pool closed"}

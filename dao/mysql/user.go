@@ -32,6 +32,7 @@ func Login(loginUser *model.User) error {
 	if result.RowsAffected == 0 {
 		return ErrorUserNotExists
 	} else if user.Password != encryptPassword(loginUser.Password) {
+		//log.Printf("%v's password: %v invalid", loginUser.Username, loginUser.Password)
 		return ErrorInvalidPassword
 	} else if result.Error != nil {
 		return result.Error
