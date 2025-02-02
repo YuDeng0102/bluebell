@@ -47,6 +47,9 @@ func Init(config *settings.MySQLConfig) (err error) {
 
 	//数据库迁移
 	_ = db.AutoMigrate(&model.User{})
+	_ = db.AutoMigrate(&model.Community{})
+	_ = db.AutoMigrate(&model.Post{})
+	//_ = db.Debug().AutoMigrate(&model.Post{})
 
 	zap.L().Info("mysql init success")
 	return

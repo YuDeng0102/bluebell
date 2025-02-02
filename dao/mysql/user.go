@@ -3,6 +3,7 @@ package mysql
 import (
 	"crypto/md5"
 	"encoding/hex"
+	"log"
 	"web-app/model"
 )
 
@@ -26,18 +27,30 @@ func InsertUser(user *model.User) error {
 	return nil
 }
 
-func Login(loginUser *model.User) error {
-	user := new(model.User)
-	result := db.Where("username = ?", loginUser.Username).First(&user)
+func Login(user *model.User) error {
+	QueryUser := new(model.User)
+	result := db.Where("username = ?", user.Username).First(&QueryUser)
+	//zap.L().Info("userID", zap.Int64("userID", user.UserID))
 	if result.RowsAffected == 0 {
 		return ErrorUserNotExists
-	} else if user.Password != encryptPassword(loginUser.Password) {
-		//log.Printf("%v's password: %v invalid", loginUser.Username, loginUser.Password)
+	} else if QueryUser.Password != encryptPassword(user.Password) {
+		log.Printf("%v's password: %v invalid", user.Username, user.Password)
 		return ErrorInvalidPassword
 	} else if result.Error != nil {
+
 		return result.Error
 	}
+	user.UserID = QueryUser.UserID
 	return nil
+}
+
+func GetAuthorName(userID int64) (string, error) {
+	user := new(model.User)
+	result := db.Where("user_id = ?", userID).First(&user)
+	if result.Error != nil || result.RowsAffected == 0 {
+		return "", ErrorUserNotExists
+	}
+	return user.Username, nil
 }
 
 func encryptPassword(password string) string {

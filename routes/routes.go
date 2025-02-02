@@ -20,6 +20,8 @@ func SetUp() *gin.Engine {
 	v1 := r.Group("/api")
 	{
 		GetUserRoutes(v1)
+		GetCommunityRoutes(v1)
+		GetPostRoutes(v1)
 	}
 	return r
 }

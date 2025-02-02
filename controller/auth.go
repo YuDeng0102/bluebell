@@ -1,11 +1,12 @@
 package controller
 
 import (
+	"errors"
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"go.uber.org/zap"
 	"strings"
 	"web-app/pkg/jwt"
-	"errors"
 )
 
 const (
@@ -36,6 +37,7 @@ func JWTAuthMiddleware() func(c *gin.Context) {
 			return
 		}
 		// parts[1]是获取到的tokenString，我们使用之前定义好的解析JWT的函数来解析它
+		zap.L().Debug("auth accessToken", zap.String("token", parts[1]))
 		mc, err := jwt.ParseToken(parts[1])
 		if err != nil {
 			fmt.Println(err)
@@ -45,6 +47,7 @@ func JWTAuthMiddleware() func(c *gin.Context) {
 		}
 		// 将当前请求的username信息保存到请求的上下文c上
 		c.Set(ContextUserIDKey, mc.UserID)
+		//zap.L().Info("UserId", zap.Int64("userId", mc.UserID))
 		c.Next() // 后续的处理函数可以用过c.Get("userID")来获取当前请求的用户信息
 	}
 }
